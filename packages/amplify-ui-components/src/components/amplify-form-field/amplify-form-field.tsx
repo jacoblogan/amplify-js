@@ -59,6 +59,7 @@ export class AmplifyFormField {
 							type={this.type}
 							handleInputChange={this.handleInputChange}
 							placeholder={this.placeholder}
+							required={this.required}
 							name={this.name}
 							value={this.value}
 							inputProps={this.inputProps}

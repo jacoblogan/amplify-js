@@ -47,6 +47,7 @@ export class AmplifyPhoneField {
 							type="tel"
 							handleInputChange={this.handleInputChange}
 							placeholder={I18n.get(this.placeholder)}
+							required={this.required}
 							name={this.fieldId}
 							value={this.value}
 							inputProps={this.inputProps}

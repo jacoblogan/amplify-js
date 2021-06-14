@@ -14,19 +14,9 @@
 | `inputProps`        | --            | Attributes places on the input element: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#Attributes                                 | `object`                                                                                        | `undefined`    |
 | `name`              | `name`        | (Optional) String value for the name of the input.                                                                                                 | `string`                                                                                        | `undefined`    |
 | `placeholder`       | `placeholder` | (Optional) The placeholder for the input element.  Using hints is recommended, but placeholders can also be useful to convey information to users. | `string`                                                                                        | `''`           |
+| `required`          | `required`    | The required flag in order to make an input required prior to submitting a form                                                                    | `boolean`                                                                                       | `false`        |
 | `type`              | `type`        | The input type.  Can be any HTML input type.                                                                                                       | `"date" \| "email" \| "number" \| "password" \| "search" \| "tel" \| "text" \| "time" \| "url"` | `'text'`       |
 | `value`             | `value`       | The value of the content inside of the input field                                                                                                 | `string`                                                                                        | `undefined`    |
-
-
-## CSS Custom Properties
-
-| Name                   | Description                               |
-| ---------------------- | ----------------------------------------- |
-| `--background-color`   | Background color of the input             |
-| `--border-color`       | Border color of the input                 |
-| `--border-color-focus` | Border color of the input when focused on |
-| `--color`              | Text color within the input               |
-| `--margin`             | Margin around the input                   |
 
 
 ## Dependencies

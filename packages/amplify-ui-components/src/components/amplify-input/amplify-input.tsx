@@ -17,6 +17,8 @@ export class AmplifyInput {
 	@Prop() handleInputChange?: (inputEvent: InputEvent) => void = () => void 0;
 	/** (Optional) The placeholder for the input element.  Using hints is recommended, but placeholders can also be useful to convey information to users. */
 	@Prop() placeholder?: string = '';
+	/** The required flag in order to make an input required prior to submitting a form */
+	@Prop() required: boolean = false;
 	/** (Optional) String value for the name of the input. */
 	@Prop() name?: string;
 	/** The value of the content inside of the input field */
@@ -128,6 +130,7 @@ export class AmplifyInput {
 						this.handleInputChange(event);
 					}}
 					placeholder={this.placeholder}
+					required={this.required}
 					name={this.name}
 					class="input"
 					value={this.value}
