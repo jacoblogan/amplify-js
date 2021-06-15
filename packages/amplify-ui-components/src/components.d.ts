@@ -954,6 +954,10 @@ export namespace Components {
         "options": | SelectOptionsString
 		| SelectOptionsNumber;
         /**
+          * The required flag in order to make the select input required prior to submitting a form
+         */
+        "required": boolean;
+        /**
           * Default selected option
          */
         "selected"?: string | number;
@@ -2477,6 +2481,10 @@ declare namespace LocalJSX {
          */
         "options"?: | SelectOptionsString
 		| SelectOptionsNumber;
+        /**
+          * The required flag in order to make the select input required prior to submitting a form
+         */
+        "required"?: boolean;
         /**
           * Default selected option
          */

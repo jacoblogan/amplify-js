@@ -26,6 +26,8 @@ export class AmplifySelect {
 	@Prop() handleInputChange?: (inputEvent: Event) => void;
 	/** Default selected option */
 	@Prop() selected?: string | number;
+	/** The required flag in order to make the select input required prior to submitting a form */
+	@Prop() required: boolean = false;
 
 	private selectOptions;
 
@@ -71,6 +73,7 @@ export class AmplifySelect {
 			<select
 				name={this.fieldId}
 				id={this.fieldId}
+				required={this.required}
 				class="select"
 				onChange={this.handleInputChange}
 			>
