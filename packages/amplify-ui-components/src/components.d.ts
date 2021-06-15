@@ -281,6 +281,10 @@ export namespace Components {
          */
         "handleInputChange"?: (inputEvent: Event) => void;
         /**
+          * Used for the hint text that displays underneath the input field
+         */
+        "hint"?: string | FunctionalComponent | null;
+        /**
           * Attributes places on the input element: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#Attributes
          */
         "inputProps"?: object;
@@ -1118,6 +1122,10 @@ export namespace Components {
          */
         "handleInputChange"?: (inputEvent: Event) => void;
         /**
+          * Used for the hint text that displays underneath the input field
+         */
+        "hint"?: string | FunctionalComponent | null;
+        /**
           * Attributes places on the input element: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#Attributes
          */
         "inputProps"?: object;
@@ -1808,6 +1816,10 @@ declare namespace LocalJSX {
           * The callback, called when the input is modified by the user.
          */
         "handleInputChange"?: (inputEvent: Event) => void;
+        /**
+          * Used for the hint text that displays underneath the input field
+         */
+        "hint"?: string | FunctionalComponent | null;
         /**
           * Attributes places on the input element: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#Attributes
          */
@@ -2645,6 +2657,10 @@ declare namespace LocalJSX {
           * The callback, called when the input is modified by the user.
          */
         "handleInputChange"?: (inputEvent: Event) => void;
+        /**
+          * Used for the hint text that displays underneath the input field
+         */
+        "hint"?: string | FunctionalComponent | null;
         /**
           * Attributes places on the input element: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#Attributes
          */
